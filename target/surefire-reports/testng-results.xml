@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-06T18:20:40 CDT" name="Suite" finished-at="2020-09-06T18:21:22 CDT" duration-ms="41438">
+    <groups>
+    </groups>
+    <test started-at="2020-09-06T18:20:40 CDT" name="Test" finished-at="2020-09-06T18:21:22 CDT" duration-ms="41438">
+      <class name="Santosh.ValidatePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Santosh.ValidatePage@6f1c29b7]" started-at="2020-09-06T18:20:44 CDT" name="initialize" finished-at="2020-09-06T18:20:49 CDT" duration-ms="4649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="baseNavigation()[pri:0, instance:Santosh.ValidatePage@6f1c29b7]" started-at="2020-09-06T18:20:54 CDT" name="baseNavigation" finished-at="2020-09-06T18:20:55 CDT" duration-ms="612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Santosh.ValidatePage@6f1c29b7]" started-at="2020-09-06T18:21:13 CDT" name="teardown" finished-at="2020-09-06T18:21:17 CDT" duration-ms="4383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Santosh.ValidatePage -->
+      <class name="Santosh.HomePageTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Santosh.HomePageTest@4d6025c5]" started-at="2020-09-06T18:20:40 CDT" name="initialize" finished-at="2020-09-06T18:20:44 CDT" duration-ms="3879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="baseNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Santosh.HomePageTest@4d6025c5]" started-at="2020-09-06T18:20:55 CDT" name="baseNavigation" data-provider="getData" finished-at="2020-09-06T18:21:05 CDT" duration-ms="10028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonresticuser@gmai.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricteduser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+        <test-method signature="baseNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Santosh.HomePageTest@4d6025c5]" started-at="2020-09-06T18:21:05 CDT" name="baseNavigation" data-provider="getData" finished-at="2020-09-06T18:21:12 CDT" duration-ms="7384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4567]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nonrestricteduser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Santosh.HomePageTest@4d6025c5]" started-at="2020-09-06T18:21:13 CDT" name="teardown" finished-at="2020-09-06T18:21:13 CDT" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Santosh.HomePageTest -->
+      <class name="Santosh.validateNavigationBar">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Santosh.validateNavigationBar@7f284218]" started-at="2020-09-06T18:20:49 CDT" name="initialize" finished-at="2020-09-06T18:20:54 CDT" duration-ms="5696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="baseNavigation()[pri:0, instance:Santosh.validateNavigationBar@7f284218]" started-at="2020-09-06T18:21:12 CDT" name="baseNavigation" finished-at="2020-09-06T18:21:13 CDT" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Santosh.validateNavigationBar@7f284218]" started-at="2020-09-06T18:21:17 CDT" name="teardown" finished-at="2020-09-06T18:21:22 CDT" duration-ms="4412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Santosh.validateNavigationBar -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

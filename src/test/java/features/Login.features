@@ -1,0 +1,9 @@
+Feature: Login into Application
+
+
+Scenario: Positive test validating login
+Given Initialize the browser with chrome
+And Navigate to "https://rahulshettyacademy.com/#/index" site
+And Click on login page in home page
+When User enters "test99@gmai.com" and "1234" and logs in 
+
